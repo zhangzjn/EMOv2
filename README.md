@@ -18,12 +18,12 @@ Official [PyTorch](https://pytorch.org/) implementation of "[EMOv2: Pushing 5M V
 | Model                                                                                                | #Params | FLOPs | Resolution | Top-1 |                        Log                         |
 |------------------------------------------------------------------------------------------------------|:-------:|:-----:|:----------:|:-----:|:--------------------------------------------------:|
 | [EMOv2-1M](https://github.com/zhangzjn/data/blob/main/emov2_pretrained_weights/EMOv2_1M_224.pth)     |  1.4M   | 285M  | 224 x 224  | 72.3  |  [log](resources/Cls/log_train_EMOv2_1M_224.txt)   |
-| [EMOv2-1M†](https://github.com/zhangzjn/data/blob/main/emov2_pretrained_weights/EMOv2_1M_224_KD.pth) |  1.4M   | 285M  | 224 x 224  | 72.3  | [log](resources/Cls/log_train_EMOv2_1M_224_KD.txt) |
+| [EMOv2-1M†](https://github.com/zhangzjn/data/blob/main/emov2_pretrained_weights/EMOv2_1M_224_KD.pth) |  1.4M   | 285M  | 224 x 224  | 73.5  | [log](resources/Cls/log_train_EMOv2_1M_224_KD.txt) |
 | [EMOv2-2M](https://github.com/zhangzjn/data/blob/main/emov2_pretrained_weights/EMOv2_2M_224.pth)     |  2.3M   | 487M  | 224 x 224  | 75.8  |  [log](resources/Cls/log_train_EMOv2_2M_224.txt)   |
-| [EMOv2-2M†](https://github.com/zhangzjn/data/blob/main/emov2_pretrained_weights/EMOv2_2M_224_KD.pth) |  2.3M   | 487M  | 224 x 224  | 75.8  | [log](resources/Cls/log_train_EMOv2_2M_224_KD.txt) |
+| [EMOv2-2M†](https://github.com/zhangzjn/data/blob/main/emov2_pretrained_weights/EMOv2_2M_224_KD.pth) |  2.3M   | 487M  | 224 x 224  | 76.7  | [log](resources/Cls/log_train_EMOv2_2M_224_KD.txt) |
 | [EMOv2-5M](https://github.com/zhangzjn/data/blob/main/emov2_pretrained_weights/EMOv2_5M_224.pth)     |  5.1M   | 1035M | 224 x 224  | 79.4  |  [log](resources/Cls/log_train_EMOv2_5M_224.txt)   |
-| [EMOv2-5M†](https://github.com/zhangzjn/data/blob/main/emov2_pretrained_weights/EMOv2_5M_224_KD.pth) |  5.1M   | 1035M | 224 x 224  | 79.4  | [log](resources/Cls/log_train_EMOv2_5M_224_KD.txt) |
-| [EMOv2-5M*](https://github.com/zhangzjn/data/blob/main/emov2_pretrained_weights/EMOv2_5M_512.pth)    |  5.1M   | 1035M | 224 x 224  | 79.4  |  [log](resources/Cls/log_train_EMOv2_5M_512.txt)   |
+| [EMOv2-5M†](https://github.com/zhangzjn/data/blob/main/emov2_pretrained_weights/EMOv2_5M_224_KD.pth) |  5.1M   | 1035M | 224 x 224  | 80.9  | [log](resources/Cls/log_train_EMOv2_5M_224_KD.txt) |
+| [EMOv2-5M*](https://github.com/zhangzjn/data/blob/main/emov2_pretrained_weights/EMOv2_5M_512.pth)    |  5.1M   | 1035M | 224 x 224  | 82.9  |  [log](resources/Cls/log_train_EMOv2_5M_512.txt)   |
 
 ## Object Detection Performance on [COCO2017](https://cocodataset.org):
 - [SSDLite](https://openaccess.thecvf.com/content_ICCV_2019/papers/Howard_Searching_for_MobileNetV3_ICCV_2019_paper.pdf) 
