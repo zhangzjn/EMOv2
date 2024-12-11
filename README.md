@@ -23,21 +23,21 @@ Official [PyTorch](https://pytorch.org/) implementation of "[EMOv2: Pushing 5M V
 | [EMOv2-2M†](https://github.com/zhangzjn/data/blob/main/emov2_pretrained_weights/EMOv2_2M_224_KD.pth) |  2.3M   | 487M  | 224 x 224  | 76.7  | [log](resources/Cls/log_train_EMOv2_2M_224_KD.txt) |
 | [EMOv2-5M](https://github.com/zhangzjn/data/blob/main/emov2_pretrained_weights/EMOv2_5M_224.pth)     |  5.1M   | 1035M | 224 x 224  | 79.4  |  [log](resources/Cls/log_train_EMOv2_5M_224.txt)   |
 | [EMOv2-5M†](https://github.com/zhangzjn/data/blob/main/emov2_pretrained_weights/EMOv2_5M_224_KD.pth) |  5.1M   | 1035M | 224 x 224  | 80.9  | [log](resources/Cls/log_train_EMOv2_5M_224_KD.txt) |
-| [EMOv2-5M*](https://github.com/zhangzjn/data/blob/main/emov2_pretrained_weights/EMOv2_5M_512.pth)    |  5.1M   | 1035M | 224 x 224  | 82.9  |  [log](resources/Cls/log_train_EMOv2_5M_512.txt)   |
+| [EMOv2-5M*](https://github.com/zhangzjn/data/blob/main/emov2_pretrained_weights/EMOv2_5M_512.pth)    |  5.1M   | 1035M | 512 x 512  | 82.9  |  [log](resources/Cls/log_train_EMOv2_5M_512.txt)   |
 
 ## Object Detection Performance on [COCO2017](https://cocodataset.org):
 - [SSDLite](https://openaccess.thecvf.com/content_ICCV_2019/papers/Howard_Searching_for_MobileNetV3_ICCV_2019_paper.pdf) 
 
 | Backbone  | #Params |  #Reso  | FLOPs | mAP  | mAP<sub>50</sub> | mAP<sub>75</sub> | mAP<sub>S</sub> | mAP<sub>M</sub> | mAP<sub>L</sub> |                           Log                            |
 |:---------:|:-------:|:-------:|:-----:|:----:|:----------------:|:----------------:|:---------------:|:---------------:|:---------------:|:--------------------------------------------------------:|
-| EMOv2-1M  |   2.4   | 300×300 | 0.7G  | 22.3 |       37.5       |       22.4       |       2.0       |      21.3       |      43.4G      | [log](resources/Det/SSDLite_1M_300_20240604_021007.log)  |
-| EMOv2-1M  |   2.4   | 512×512 | 2.3G  | 26.6 |       44.4       |       27.5       |       7.3       |      31.4       |      43.0G      | [log](resources/Det/SSDLite_1M_512_20240607_225657.log)  |
-| EMOv2-2M  |   3.3   | 300×300 | 1.2G  | 26.0 |       43.0       |       26.5       |       3.6       |      26.6       |      50.2G      | [log](resources/Det/SSDLite_2M_300_20240602_113501.log)  |
-| EMOv2-2M  |   3.3   | 512×512 | 4.0G  | 30.7 |       49.8       |       31.7       |       9.9       |      37.1       |      47.3G      | [log](resources/Det/SSDLite_2M_512_20240607_231118.log)  |
-| EMOv2-5M  |   6.0   | 300×300 | 2.4G  | 29.6 |       47.6       |       30.1       |       5.5       |      32.2       |      54.8G      | [log](resources/Det/SSDLite_5M_300_20240607_152111.log)  |
-| EMOv2-5M  |   6.0   | 512×512 | 8.0G  | 34.8 |       54.7       |       36.4       |      13.7       |      42.0       |      52.0G      | [log](resources/Det/SSDLite_5M_512_20240607_231128.log)  |
-| EMOv2-20M |  21.2   | 300×300 | 9.1G  | 33.1 |       51.9       |       33.9       |       8.9       |      36.8       |      57.3G      | [log](resources/Det/SSDLite_20M_300_20240607_151706.log) |
-| EMOv2-20M |  21.2   | 512×512 | 30.3G | 38.3 |       58.4       |       40.7       |      17.9       |      45.2       |      54.6G      | [log](resources/Det/SSDLite_20M_512_20240607_231311.log) |
+| EMOv2-1M  |   2.4   | 300×300 | 0.7G  | 22.3 |       37.5       |       22.4       |       2.0       |      21.3       |      43.4       | [log](resources/Det/SSDLite_1M_300_20240604_021007.log)  |
+| EMOv2-1M  |   2.4   | 512×512 | 2.3G  | 26.6 |       44.4       |       27.5       |       7.3       |      31.4       |      43.0       | [log](resources/Det/SSDLite_1M_512_20240607_225657.log)  |
+| EMOv2-2M  |   3.3   | 300×300 | 1.2G  | 26.0 |       43.0       |       26.5       |       3.6       |      26.6       |      50.2       | [log](resources/Det/SSDLite_2M_300_20240602_113501.log)  |
+| EMOv2-2M  |   3.3   | 512×512 | 4.0G  | 30.7 |       49.8       |       31.7       |       9.9       |      37.1       |      47.3       | [log](resources/Det/SSDLite_2M_512_20240607_231118.log)  |
+| EMOv2-5M  |   6.0   | 300×300 | 2.4G  | 29.6 |       47.6       |       30.1       |       5.5       |      32.2       |      54.8       | [log](resources/Det/SSDLite_5M_300_20240607_152111.log)  |
+| EMOv2-5M  |   6.0   | 512×512 | 8.0G  | 34.8 |       54.7       |       36.4       |      13.7       |      42.0       |      52.0       | [log](resources/Det/SSDLite_5M_512_20240607_231128.log)  |
+| EMOv2-20M |  21.2   | 300×300 | 9.1G  | 33.1 |       51.9       |       33.9       |       8.9       |      36.8       |      57.3       | [log](resources/Det/SSDLite_20M_300_20240607_151706.log) |
+| EMOv2-20M |  21.2   | 512×512 | 30.3G | 38.3 |       58.4       |       40.7       |      17.9       |      45.2       |      54.6       | [log](resources/Det/SSDLite_20M_512_20240607_231311.log) |
 
 
 - [RetinaNet](https://openaccess.thecvf.com/content_ICCV_2017/papers/Lin_Focal_Loss_for_ICCV_2017_paper.pdf)
@@ -108,9 +108,9 @@ pip install mmcv==2.1.0 -f https://download.openmmlab.com/mmcv/dist/cu118/torch2
 
 (Opt.) git clone https://github.com/NVIDIA/apex && cd apex && pip3 install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./ 
 (Downstream) pip install terminaltables pycocotools prettytable xtcocotools
-(Downstream)pip install mmdet==3.3.0
-(Downstream)pip install mmsegmentation==1.2.2
-(Downstream)pip install mmaction2==1.2.0
+(Downstream) pip install mmdet==3.3.0
+(Downstream) pip install mmsegmentation==1.2.2
+(Downstream) pip install mmaction2==1.2.0
 ```
   
 ## Prepare ImageNet-1K Dataset
